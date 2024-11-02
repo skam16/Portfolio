@@ -5,8 +5,39 @@ body{
     
 }
 
-h1,p{
+h1,h2,p,li{
 color: white;
+
 
 }
 
+h2{
+    text-align: center;
+}
+
+.index_body,.skills{
+    
+    background-color: #322D31 ;
+    opacity: .9;
+   margin-left:15%;
+   margin-right:15%;
+   margin-top: 5%;
+   
+  
+
+}
+.education,.skill_list{
+    text-align: justify;
+    margin-left: 25%;
+margin-right:25%;
+padding-bottom: 5%;
+
+}
+
+.summary_me{
+
+    text-align: justify;
+padding-top: 5%;
+    margin-left: 25%;
+margin-right:25%;
+}
