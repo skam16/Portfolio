@@ -27,8 +27,14 @@ h2{
 
 }
 
+.work_body{
+background-image: url('images/background_work.jpg');
+background-size: cover;
+
+}
 .skills_body{
 background-image: url('images/background_skills.jpg');
+background-size: cover;
 }
 
 
