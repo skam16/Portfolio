@@ -21,11 +21,22 @@ h2{
     opacity: .9;
    margin-left:15%;
    margin-right:15%;
-   margin-top: 5%;
+  
    
   
 
 }
+
+.skills_body{
+background-image: url('images/background_skills.jpg');
+}
+
+.skills{
+ margin-top:5%;
+
+}
+
+
 .education,.skill_list{
     text-align: justify;
     margin-left: 25%;
@@ -35,7 +46,6 @@ padding-bottom: 5%;
 }
 
 .summary_me{
-
     text-align: justify;
 padding-top: 5%;
     margin-left: 25%;
