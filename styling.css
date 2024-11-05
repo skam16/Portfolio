@@ -5,25 +5,22 @@ body{
     
 }
 
-h1,h2,p,li{
+h1,h2,h4,p,li,.col{
 color: white;
 
 
 }
 
-h2{
+h2,h4{
     text-align: center;
 }
 
-.index_body,.skills_container,.work_container{
+.index_body,.skills_container,.work_container,.row{
     
     background-color: #322D31 ;
     opacity: .9;
    margin-left:15%;
    margin-right:15%;
-  
-   
-  
 
 }
 
@@ -38,7 +35,7 @@ background-size: cover;
 }
 
 
-.skills_container,.work_container{
+.skills_container,.work_container,.row{
  margin-top:5%;
  padding: 10px;
  text-align: justify;
@@ -59,4 +56,9 @@ padding-bottom: 5%;
 padding-top: 5%;
     margin-left: 25%;
 margin-right:25%;
+}
+
+.row{
+
+    height:40%;
 }
