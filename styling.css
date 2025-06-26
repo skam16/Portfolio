@@ -7,17 +7,44 @@ body{
 
 h1,h2,h4,p,li,.col{
 color: white;
+}
 
-
+h3{
+    
+    color:white;
+    margin-right: 10px;;
 }
 
 h2,h4{
     text-align: center;
 }
 
+.links{
+    display:flex;
+
+}
+a:link,a:visited,a:hover,a:active{
+    text-decoration: none;;
+    color:whitesmoke;
+}
+
+a:hover,a:active{
+    background-color: whitesmoke;
+    border: 1px;
+    border-radius: 10px;
+}
+.header{
+    background-color: #322D31;
+    padding: .5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 .index_body,.skills_container,.work_container,.row{
     
     background-color: #322D31 ;
+    margin-top:5%;
     opacity: .9;
    margin-left:15%;
    margin-right:15%;
