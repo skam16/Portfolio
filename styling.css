@@ -1,8 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    font-style: "Inter", sans-serif;
+    
+}
 body{
 
     background-image:url("images/background.jpg");
     background-size: cover;
-    
+    font-size:1.1rem;
 }
 
 h1,h2,h4,p,li,.col{
@@ -12,7 +19,9 @@ color: white;
 h3{
     
     color:white;
-    margin-right: 10px;;
+    margin-right: 10px;
+    font-weight:700;
+    font-size: 30px;
 }
 
 h2,h4{
@@ -21,7 +30,10 @@ h2,h4{
 
 .links{
     display:flex;
-
+    justify-content: space-between;
+    width:40%;
+    font-size: 30px;
+    
 }
 a:link,a:visited,a:hover,a:active{
     text-decoration: none;;
@@ -31,11 +43,12 @@ a:link,a:visited,a:hover,a:active{
 a:hover,a:active{
     background-color: whitesmoke;
     border: 1px;
+    color:black;
     border-radius: 10px;
 }
 .header{
     background-color: #322D31;
-    padding: .5%;
+    padding: 1%;
     display: flex;
     justify-content: space-between;
     
@@ -51,15 +64,7 @@ a:hover,a:active{
 
 }
 
-.work_body{
-background-image: url('images/background_work.jpg');
-background-size: cover;
 
-}
-.skills_body{
-background-image: url('images/background_skills.jpg');
-background-size: cover;
-}
 
 
 .skills_container,.work_container,.row{
