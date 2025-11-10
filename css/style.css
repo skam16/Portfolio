@@ -8,12 +8,25 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.6rem;
     background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
 }
 
+
 .header,.footer{
-    background-color: rgba(45, 153, 246, 0.765);
-    position: absolute;
+    background-color: rgb(101, 180, 249);
+    position:sticky;
     width: 100%;
+}
+
+.main{
+    flex-grow: 1;
+    
+    margin:auto;
+    text-align: center;
+    
+    
 }
 
 .header{
@@ -22,17 +35,24 @@ body{
     justify-content: space-between;
     padding-left:1%;
     padding-right: 1%;
+    
 
+}
+
+/* Level with links */
+.header h2{
+    margin-top: .5%;
 }
 
 .footer{
     bottom:0;
     display: flex;
     justify-content: space-between;
-    padding-left: 2%;
-    padding-right:2%;
+    padding-left: 5%;
+    padding-right:5%;
     height:8%;
     padding-top: 1%;
+   
 }
 
 .header-nav{
@@ -45,6 +65,9 @@ body{
 
 .header-nav-link{
     color: black;
+    text-decoration: none;
+    padding-left:2%;
+    padding-right:2%;
 }
 
 .header-nav-link:hover{
