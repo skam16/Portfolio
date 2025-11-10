@@ -22,13 +22,24 @@ body{
 
 .main{
     flex-grow: 1;
-    
     margin:auto;
-    text-align: center;
-    
+    text-align: center;  
     
 }
+section p{
+    margin-left:5%;
+    margin-right:5%;
+    text-align: justify;
+    margin-top:1.5rem;
+}
 
+section h2{
+    margin-top: 2%;
+}
+
+section .section-center{
+    text-align:center;
+}
 .header{
     top:0;
     display: flex;
