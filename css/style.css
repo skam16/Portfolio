@@ -40,6 +40,10 @@ section h2{
 section .section-center{
     text-align:center;
 }
+
+.main-section-list{
+    padding-left:10%;
+}
 .header{
     top:0;
     display: flex;
@@ -92,6 +96,11 @@ section .section-center{
 .footer-img{
     width:25px;
     height:25px;
+}
+
+.main-section-list{
+    text-align: left;
+    
 }
 
 
