@@ -90,6 +90,8 @@ footer{
     
     justify-content: space-evenly;
     padding: 1%;
+
+    visibility: hidden;
    
     
 }
@@ -147,6 +149,15 @@ section h2{
     flex-flow: column nowrap;
 }
 
+.projects-image{
+
+    border:2px solid black;
+    border-radius: 2%;
+    display:block;
+    place-content: center;
+    margin-bottom: 2%;
+
+}
 
 
 @media screen and (min-width:576px){
@@ -160,5 +171,11 @@ section h2{
         font-size: 1.5rem;
     }
 
+    .header-nav{
+        visibility: visible;
+    }
+
  
 }
+
+
