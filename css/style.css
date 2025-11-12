@@ -9,7 +9,7 @@
 }
 
 body{
-    font: 1rem Arial, Helvetica, sans-serif;
+    font: 1.2rem Arial, Helvetica, sans-serif;
     
     background-color: whitesmoke;
 
@@ -188,6 +188,10 @@ section h2{
 
 .menu-nav-h2{
    text-align: center;
+}
+
+.menu-nav-list .header-nav-link{
+    font-size: 1.5rem;;
 }
 
 
